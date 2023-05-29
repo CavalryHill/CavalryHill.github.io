@@ -1,0 +1,35 @@
+#txt_list.child
+{
+    display: inline-block;
+}
+
+#rule_txt{background-color: lightgray; padding: 10px; }
+#game_list{background-color: blanchedalmond; padding: 30px; justify-items: center; align-items: center; } /*沒置中*/
+
+#num_list input
+{
+    font-weight: bold; font-size: 32px;
+}
+
+#btn_run
+{
+    background-color: lightblue; font-size: 48px;
+}
+#btn_run:hover
+{
+    background-color: lightskyblue; font-size: 48px;
+}
+
+#btn_rst
+{
+    color: lightsalmon; font-size: 48px;
+}
+#btn_rst:hover
+{
+    color: lightcoral; font-weight: bold; font-size: 48px;
+}
+
+#prize_list p
+{
+    color: lightcoral; font-weight: bold; font-size: 32px;
+}

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta lang="zh-Hant-TW">
+
+        <title>Lottery Game</title>
+
+        <link rel="stylesheet" href="./css/demo.css">
+
+        <script src="./js/game.js"></script>
+    </head>
+
+    <body>
+        <p id="rule_txt">請自行輸入 3 個號碼 (1~10)<br>每局遊戲將亂數產生 3 個得獎號碼<br>按下開獎按鈕後，會開始比對輸入號碼及得獎號碼 (不管排列先後順序)<br>全部對中時為頭獎、2 個號碼對中為貳獎、1 個號碼對中為參獎</p>
+
+        <div id="game_list" class="game_list">
+            <div id="txt_list">
+                <!--未完成-->
+            </div>
+
+            <div id="num_list">
+                <lable for="num_001"></lable>
+                <input type="number" id="num_001" name="num_001" min="1" max="10">
+        
+                <lable for="num_002"></lable>
+                <input type="number" id="num_002" name="num_002" min="1" max="10">
+        
+                <lable for="num_003"></lable>
+                <input type="number" id="num_003" name="num_003" min="1" max="10">
+            </div>
+
+            <button type="button" id="btn_run" onclick="GameRun()">Pull the Lever!</button>
+            <button type="button" id="btn_rst" onclick="GameRst()">Reset the Game!</button>
+
+            <div id="prize_list">
+
+            </div>
+        </div>
+
+
+    </body>
+</html>
