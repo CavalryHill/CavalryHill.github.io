@@ -1,0 +1,10 @@
+./js/game.js 主程式
+	# 亂數生成: https://www.w3schools.com/jsref/jsref_random.asp
+
+./css/demo.css 給demo.html的簡易特效
+	# 嘗試置中: https://eudora.cc/posts/31492/
+
+
+
+* 其他幾乎是以前打的經驗
+	參考資料: https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photos-view.html

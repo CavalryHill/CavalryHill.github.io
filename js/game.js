@@ -1,4 +1,4 @@
-function GetInput(num_001, num_002, num_003)
+/*function GetInput(num_001, num_002, num_003)
 {
     num_001=document.getElementById('num_001').value; 
     num_002=document.getElementById('num_002').value; 
@@ -10,8 +10,9 @@ function CheckInput(num_001, num_002, num_003)
     if (num_001==num_003||num_001==num_002||num_002==num_003){input_check=false; } else {input_check=true; }
 }
 
-// 上面在 function 內都沒法改值，大概是太久沒打，怪怪的
-function GameRst()
+// 上面在 function 內都沒法改值，大概是太久沒打，怪怪的*/
+
+function GameRst() // <Q4>
 {
     document.getElementById('num_001').value=''; 
     document.getElementById('num_002').value=''; 
@@ -29,7 +30,7 @@ function GameRun()
 
     var input_check=false; 
 
-    // > 防止缺值
+    // > 防止缺值 <Q5>
     if (num_001==''||num_002==''||num_003=='')
     {
         alert('請記得輸入數字'); 
@@ -66,7 +67,7 @@ function GameRun()
 
             var ball_arr=[ball_001, ball_002, ball_003]; 
             
-            // > 資料比對
+            // > 資料比對 <Q1>
             var plot_cnt=0; 
 
             for (num=0; num<num_arr.length; num++)
@@ -77,7 +78,7 @@ function GameRun()
                 }
             }
 
-            // > 公告結果
+            // > 公告結果 <Q2>
             const prize_arr=[10, 50, 100]; var prize_msg; 
             const prize_list=document.getElementById('prize_list'); 
 
