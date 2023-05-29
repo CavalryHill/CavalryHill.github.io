@@ -55,8 +55,6 @@ function GameRun()
         {
             var num_arr=[num_001, num_002, num_003]; 
 
-            alert(num_arr); 
-
             // > 產生球號
             var ball_001=Math.floor(Math.random()*10)+1; // https://www.w3schools.com/jsref/jsref_random.asp
             var ball_002=Math.floor(Math.random()*10)+1; 
